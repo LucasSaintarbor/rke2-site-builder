@@ -8,6 +8,7 @@ content:
     - url: ../rke2-ad
       branches: [main]
 
+
 ui:
   bundle:
     url: https://github.com/uyuni-project/uyuni-docs/blob/master/branding/default-ui/suma/ui-bundle.zip?raw=true
