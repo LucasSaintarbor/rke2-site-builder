@@ -1,16 +1,21 @@
 site:
-  title: RKE2 documentation
+  title: RKE2 Documentation
   url: /
-  start_page: main@rke2-ad::introduction.adoc
+  start_page: main@rke2-ad-english::introduction.adoc
 
 content:
   sources:
-    - url: ../rke2-ad
-      branches: [main]
+  - url: ../rke2-ad
+    branches: [main]
+  #- url: https://github.com/LucasSaintarbor/rke2-ad
+  #  branches: main, v2.8
+  #  start_paths: docs/en, docs/ch
 
 
 ui:
   bundle:
-    url: https://github.com/uyuni-project/uyuni-docs/blob/master/branding/default-ui/suma/ui-bundle.zip?raw=true
+    #url: https://gitlab.com/antora-ui-custom/antora-ui-i18n/-/jobs/artifacts/main/raw/build/ui-bundle.zip?job=bundle-stable
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    #url: https://github.com/uyuni-project/uyuni-docs/blob/master/branding/default-ui/suma/ui-bundle.zip?raw=true
     snapshot: true
   supplemental_files: ./susecom-2023

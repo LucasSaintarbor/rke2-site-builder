@@ -5,8 +5,9 @@ site:
 
 content:
   sources:
-    - url: https://github.com/LucasSaintarbor/rke2-ad
-      branches: [main]
+  - url: https://github.com/LucasSaintarbor/rke2-ad
+    branches: main, v2.8
+    start_paths: docs/en, docs/ch
 
 ui:
   bundle:
