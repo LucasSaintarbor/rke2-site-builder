@@ -1,7 +1,7 @@
 site:
   title: RKE2 Documentation
   url: /
-  start_page: main@rke2-ad-english::introduction.adoc
+  start_page: main@rke2-ad::introduction.adoc
 
 content:
   sources:
